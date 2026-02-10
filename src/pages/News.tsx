@@ -155,61 +155,116 @@ const News: React.FC = () => {
         <PageTitle>Recent News & Achievements</PageTitle>
         <PageSubtitle>Stay updated with my latest research and professional milestones</PageSubtitle>
       </PageHeader>
-       <YearSection>
-  <YearTitle>2025</YearTitle>
-  <TimelineContainer>
-  <NewsItem>
-      <NewsDate>
-        <Calendar size={18} />
-        [September]
-      </NewsDate>
-      <NewsContent>
-        Two papers published in the 4th International Conference on Computing and Communication Networks (<NewsLink href="https://icccn.co.uk/" target="_blank" rel="noopener noreferrer">ICCCNet 2024 <ExternalLink size={14} /></NewsLink>).
-      </NewsContent>
-    </NewsItem>
+      <YearSection>
+        <YearTitle>2026</YearTitle>
+        <TimelineContainer>
+          <NewsItem>
+            <NewsDate>
+              <Trophy size={18} />
+              [January]
+            </NewsDate>
+            <NewsContent>
+              Reached 100+ citations on my Google Scholar profile!
+            </NewsContent>
+          </NewsItem>
 
-    <NewsItem>
-      <NewsDate>
-        <Calendar size={18} />
-        [September]
-      </NewsDate>
-      <NewsContent>
-        One paper published in the <i>International Journal of Disaster Risk Reduction</i> (<NewsLink href="https://www.sciencedirect.com/journal/international-journal-of-disaster-risk-reduction" target="_blank" rel="noopener noreferrer">Disaster Risk Reduction <ExternalLink size={14} /></NewsLink>).
-      </NewsContent>
-    </NewsItem>
-  <NewsItem>
-      <NewsDate>
-        <Calendar size={18} />
-        [June]
-      </NewsDate>
-      <NewsContent>
-        Published a paper in the <i>International Journal of Information Management Data Insights (<NewsLink href="https://www.sciencedirect.com/journal/international-journal-of-information-management-data-insights" target="_blank" rel="noopener noreferrer">IJIM<ExternalLink size={14} /></NewsLink>)</i>.
-      </NewsContent>
-    </NewsItem>
-    
-    <NewsItem>
-      <NewsDate>
-        <Calendar size={18} />
-        [May]
-      </NewsDate>
-      <NewsContent>
-        Joined as a Software Engineer (AI/ML) at (<NewsLink href="https://www.linkedin.com/company/brainstation-23/posts/?feedView=all" target="_blank" rel="noopener noreferrer"><ExternalLink size={14} />Brain Station 23</NewsLink>).
-      </NewsContent>
-    </NewsItem>
+          <NewsItem>
+            <NewsDate>
+              <Award size={18} />
+              [January]
+            </NewsDate>
+            <NewsContent>
+              Got promoted to Software Engineer II at <NewsLink href="https://www.linkedin.com/company/brainstation-23/" target="_blank" rel="noopener noreferrer">Brain Station 23 PLC <ExternalLink size={14} /></NewsLink>.
+            </NewsContent>
+          </NewsItem>
+        </TimelineContainer>
+      </YearSection>
 
-    <NewsItem>
-      <NewsDate>
-        <Calendar size={18} />
-        [May]
-      </NewsDate>
-      <NewsContent>
-        Two papers published in ICITA. (<NewsLink href="https://www.icita.world/#/" target="_blank" rel="noopener noreferrer">ICITA 2024 <ExternalLink size={14} /></NewsLink>)
-      </NewsContent>
-    </NewsItem>
+      <YearSection>
+        <YearTitle>2025</YearTitle>
+        <TimelineContainer>
+          <NewsItem>
+            <NewsDate>
+              <Calendar size={18} />
+              [December]
+            </NewsDate>
+            <NewsContent>
+              Presented "PotatoGANs" at the 11th IEEE International Conference on Sustainable Technology and Engineering (<NewsLink href="https://i-coste.org/" target="_blank" rel="noopener noreferrer">i-COSTE 2025 <ExternalLink size={14} /></NewsLink>).
+            </NewsContent>
+          </NewsItem>
+
+          <NewsItem>
+            <NewsDate>
+              <Award size={18} />
+              [November]
+            </NewsDate>
+            <NewsContent>
+              Awarded a 50% registration fee scholarship for research excellence and paper presentation of "PotatoGANs" at the 11th IEEE International Conference on Sustainable Technology and Engineering (<NewsLink href="https://i-coste.org/" target="_blank" rel="noopener noreferrer">i-COSTE 2025 <ExternalLink size={14} /></NewsLink>).
+            </NewsContent>
+          </NewsItem>
+
+          <NewsItem>
+            <NewsDate>
+              <BookOpen size={18} />
+              [October]
+            </NewsDate>
+            <NewsContent>
+              "PotatoGANs: Utilizing Generative Adversarial Networks, Instance Segmentation, and Explainable AI for Enhanced Potato Disease Identification and Classification" has been accepted for presentation and publication at the 11th IEEE International Conference on Sustainable Technology and Engineering (<NewsLink href="https://i-coste.org/" target="_blank" rel="noopener noreferrer">IEEE i-COSTE 2025 <ExternalLink size={14} /></NewsLink>).
+            </NewsContent>
+          </NewsItem>
+
+          <NewsItem>
+            <NewsDate>
+              <Calendar size={18} />
+              [September]
+            </NewsDate>
+            <NewsContent>
+              Two papers published in the 4th International Conference on Computing and Communication Networks (<NewsLink href="https://icccn.co.uk/" target="_blank" rel="noopener noreferrer">ICCCNet 2024 <ExternalLink size={14} /></NewsLink>).
+            </NewsContent>
+          </NewsItem>
+
+          <NewsItem>
+            <NewsDate>
+              <Calendar size={18} />
+              [September]
+            </NewsDate>
+            <NewsContent>
+              One paper published in the <i>International Journal of Disaster Risk Reduction</i> (<NewsLink href="https://www.sciencedirect.com/journal/international-journal-of-disaster-risk-reduction" target="_blank" rel="noopener noreferrer">Disaster Risk Reduction <ExternalLink size={14} /></NewsLink>).
+            </NewsContent>
+          </NewsItem>
+          <NewsItem>
+            <NewsDate>
+              <Calendar size={18} />
+              [June]
+            </NewsDate>
+            <NewsContent>
+              Published a paper in the <i>International Journal of Information Management Data Insights (<NewsLink href="https://www.sciencedirect.com/journal/international-journal-of-information-management-data-insights" target="_blank" rel="noopener noreferrer">IJIM<ExternalLink size={14} /></NewsLink>)</i>.
+            </NewsContent>
+          </NewsItem>
+
+          <NewsItem>
+            <NewsDate>
+              <Calendar size={18} />
+              [May]
+            </NewsDate>
+            <NewsContent>
+              Joined as a Software Engineer (AI/ML) at (<NewsLink href="https://www.linkedin.com/company/brainstation-23/posts/?feedView=all" target="_blank" rel="noopener noreferrer"><ExternalLink size={14} />Brain Station 23</NewsLink>).
+            </NewsContent>
+          </NewsItem>
+
+          <NewsItem>
+            <NewsDate>
+              <Calendar size={18} />
+              [May]
+            </NewsDate>
+            <NewsContent>
+              Two papers published in ICITA. (<NewsLink href="https://www.icita.world/#/" target="_blank" rel="noopener noreferrer">ICITA 2024 <ExternalLink size={14} /></NewsLink>)
+            </NewsContent>
+          </NewsItem>
 
 
-  </TimelineContainer>
-</YearSection>
+        </TimelineContainer>
+      </YearSection>
 
 
       <YearSection>
@@ -224,7 +279,7 @@ const News: React.FC = () => {
               Attended the 18th International Conference on Information Technology and Applications and presented two papers. (<NewsLink href="https://www.icita.world/#/" target="_blank" rel="noopener noreferrer">ICITA 2024 <ExternalLink size={14} /></NewsLink>)
             </NewsContent>
           </NewsItem>
-          
+
           <NewsItem>
             <NewsDate>
               <Calendar size={18} />
@@ -234,7 +289,7 @@ const News: React.FC = () => {
               Attended the 4th International Conference on Computing and Communication Networks presented two papers. (<NewsLink href="https://icccn.co.uk/" target="_blank" rel="noopener noreferrer">ICCCNet 2024 <ExternalLink size={14} /></NewsLink>)
             </NewsContent>
           </NewsItem>
-          
+
           <NewsItem>
             <NewsDate>
               <Calendar size={18} />
@@ -244,7 +299,7 @@ const News: React.FC = () => {
               Attended the IEEE Region 10 Symposium at Netaji Subhas University of Technology (NSUT), New Delhi (<NewsLink href="https://ieeedelhi-tensymp2024.org/" target="_blank" rel="noopener noreferrer">TENSYMP2024 <ExternalLink size={14} /></NewsLink>).
             </NewsContent>
           </NewsItem>
-          
+
           <NewsItem>
             <NewsDate>
               <Calendar size={18} />
@@ -254,7 +309,7 @@ const News: React.FC = () => {
               Two paper got accepted at 18th International Conference on Information Technology and Applications (<NewsLink href="https://www.icita.world/#/" target="_blank" rel="noopener noreferrer">ICITA 2024 <ExternalLink size={14} /></NewsLink>).
             </NewsContent>
           </NewsItem>
-          
+
           <NewsItem>
             <NewsDate>
               <Calendar size={18} />
@@ -264,7 +319,7 @@ const News: React.FC = () => {
               One paper got accepted at The IEEE Region 10 Symposium (<NewsLink href="https://ieeedelhi-tensymp2024.org/" target="_blank" rel="noopener noreferrer">TENSYMP2024 <ExternalLink size={14} /></NewsLink>).
             </NewsContent>
           </NewsItem>
-          
+
           <NewsItem>
             <NewsDate>
               <Calendar size={18} />
@@ -274,7 +329,7 @@ const News: React.FC = () => {
               Two paper got accepted at 4th International Conference on Computing and Communication Networks (<NewsLink href="https://icccn.co.uk/" target="_blank" rel="noopener noreferrer">ICCCNet 2024 <ExternalLink size={14} /></NewsLink>).
             </NewsContent>
           </NewsItem>
-          
+
           <NewsItem>
             <NewsDate>
               <Users size={18} />
@@ -299,7 +354,7 @@ const News: React.FC = () => {
               Graduated from "Ahsanullah University of Science and Technology" <NewsLink href="https://aust.edu/" target="_blank" rel="noopener noreferrer">AUST <ExternalLink size={14} /></NewsLink>
             </NewsContent>
           </NewsItem>
-          
+
           <NewsItem>
             <NewsDate>
               <BookOpen size={18} />
@@ -309,7 +364,7 @@ const News: React.FC = () => {
               Defended undergraduate thesis on "Generative Adversarial Networks for Crop Disease: A Case Study with Potato Disease Classification and Instance Segmentation"
             </NewsContent>
           </NewsItem>
-          
+
           <NewsItem>
             <NewsDate>
               <Trophy size={18} />
@@ -319,7 +374,7 @@ const News: React.FC = () => {
               Secured 7<sup>th</sup> position at DL Sprint 2.0 - BUET CSE Fest 2023. <NewsLink href="https://www.kaggle.com/competitions/dlsprint2/discussion/433389" target="_blank" rel="noopener noreferrer">DL Sprint 2.0 <ExternalLink size={14} /></NewsLink>
             </NewsContent>
           </NewsItem>
-          
+
           <NewsItem>
             <NewsDate>
               <Calendar size={18} />
@@ -329,7 +384,7 @@ const News: React.FC = () => {
               Participate in DL Sprint 2.0 - BUET CSE Fest 2023. <NewsLink href="https://www.kaggle.com/competitions/dlsprint2/overview" target="_blank" rel="noopener noreferrer">DL Sprint 2.0 <ExternalLink size={14} /></NewsLink>
             </NewsContent>
           </NewsItem>
-          
+
           <NewsItem>
             <NewsDate>
               <Award size={18} />
@@ -339,7 +394,7 @@ const News: React.FC = () => {
               Secured 1<sup>st</sup> position at RESEARCH SYMPOSIUM 2023: AN INTRA-AUST RESEARCH EXHIBITION <NewsLink href="https://aust.edu/events/1996" target="_blank" rel="noopener noreferrer">RESEARCH SYMPOSIUM 2023 <ExternalLink size={14} /></NewsLink>
             </NewsContent>
           </NewsItem>
-          
+
           <NewsItem>
             <NewsDate>
               <Calendar size={18} />
@@ -349,7 +404,7 @@ const News: React.FC = () => {
               Attended the RESEARCH SYMPOSIUM 2023: AN INTRA-AUST RESEARCH EXHIBITION <NewsLink href="https://aust.edu/events/1996" target="_blank" rel="noopener noreferrer">RESEARCH SYMPOSIUM 2023 <ExternalLink size={14} /></NewsLink>
             </NewsContent>
           </NewsItem>
-          
+
           <NewsItem>
             <NewsDate>
               <BookOpen size={18} />
@@ -359,7 +414,7 @@ const News: React.FC = () => {
               One paper got published at <NewsLink href="https://ieee-ccwc.org/" target="_blank" rel="noopener noreferrer">CCWC 2023 <ExternalLink size={14} /></NewsLink>.
             </NewsContent>
           </NewsItem>
-          
+
           <NewsItem>
             <NewsDate>
               <Calendar size={18} />
@@ -369,7 +424,7 @@ const News: React.FC = () => {
               Attended the 2023 IEEE 13th Annual Computing and Communication Workshop and Conference (CCWC 2023) (Virtual), Las Vegas, NV, USA.
             </NewsContent>
           </NewsItem>
-          
+
           <NewsItem>
             <NewsDate>
               <BookOpen size={18} />

@@ -298,7 +298,7 @@ const Home: React.FC = () => {
       <Greeting>Greetings!</Greeting>
 
       <Description>
-        I am Mukaffi Bin Moin, currently working as a Software Engineer I
+        I am Mukaffi Bin Moin, currently working as a Software Engineer II
         (AI/ML) at{" "}
         <a
           href="https://www.linkedin.com/company/brainstation-23/"
@@ -308,7 +308,7 @@ const Home: React.FC = () => {
           Brain Station 23
         </a>
         . Previously, I served as a Machine Learning Engineer and AI Team Lead at{" "}
-         <a
+        <a
           href="https://www.linkedin.com/company/anttroboticsltd/"
           target="_blank"
           rel="noopener noreferrer"
@@ -360,104 +360,143 @@ const Home: React.FC = () => {
         </EmailItem>
       </EmailSection>
 
-<NewsSection>
-  <NewsTitle>
-    <Zap size={24} />
-    Recent News
-  </NewsTitle>
+      <NewsSection>
+        <NewsTitle>
+          <Zap size={24} />
+          Recent News
+        </NewsTitle>
 
-  {/* 2025 Events */}
-  <YearTitle>2025</YearTitle>
+        {/* 2026 Events */}
+        <YearTitle>2026</YearTitle>
 
+        <NewsItem>
+          <span className="date">[January]</span> - Reached 100+ citations on my Google Scholar profile!
+        </NewsItem>
 
-  <NewsItem>
-    <span className="date">[September]</span> - Two papers got published in the 4th International Conference on Computing and Communication Networks (
-    <a href="https://icccn.co.uk/" target="_blank" rel="noopener noreferrer">
-      ICCCNet 2024
-    </a>
-    ).
-  </NewsItem>
+        <NewsItem>
+          <span className="date">[January]</span> - Got promoted to Software Engineer II at (
+          <a href="https://www.linkedin.com/company/brainstation-23/" target="_blank" rel="noopener noreferrer">
+            Brain Station 23 PLC
+          </a>
+          ).
+        </NewsItem>
 
-  <NewsItem>
-    <span className="date">[September]</span> - One paper got published in the <i>International Journal of Disaster Risk Reduction</i>. (
-    <a href="https://www.sciencedirect.com/journal/international-journal-of-disaster-risk-reduction" target="_blank" rel="noopener noreferrer">
-      Disaster Risk Reduction
-    </a>
-    )
-  </NewsItem>
+        {/* 2025 Events */}
+        <YearTitle>2025</YearTitle>
 
-  <NewsItem>
-    <span className="date">[June]</span> - One paper got published in the <i>International Journal of Information Management Data Insights</i>. (
-    <a href="https://www.sciencedirect.com/journal/international-journal-of-information-management-data-insights" target="_blank" rel="noopener noreferrer">
-      IJIM
-    </a>
-    )
-  </NewsItem>
+        <NewsItem>
+          <span className="date">[December]</span> - Presented "PotatoGANs" at the 11th IEEE International Conference on Sustainable Technology and Engineering (
+          <a href="https://i-coste.org/" target="_blank" rel="noopener noreferrer">
+            i-COSTE 2025
+          </a>
+          ).
+        </NewsItem>
 
-  <NewsItem>
-    <span className="date">[May]</span> - Joined Brain Station 23 as a Software Engineer (AI/ML). (
-    <a href="https://www.linkedin.com/company/brainstation-23/posts/?feedView=all" target="_blank" rel="noopener noreferrer">
-      Brain Station 23
-    </a>
-    )
-  </NewsItem> 
+        <NewsItem>
+          <span className="date">[November]</span> - Awarded a 50% registration fee scholarship for research excellence and paper presentation of "PotatoGANs" at the 11th IEEE International Conference on Sustainable Technology and Engineering (
+          <a href="https://i-coste.org/" target="_blank" rel="noopener noreferrer">
+            i-COSTE 2025
+          </a>
+          ).
+        </NewsItem>
 
-  <NewsItem>
-    <span className="date">[May]</span> - Two papers got published at ICITA. (
-    <a href="https://www.icita.world/#/" target="_blank" rel="noopener noreferrer">
-      ICITA 2024
-    </a>
-    )
-  </NewsItem>
+        <NewsItem>
+          <span className="date">[October]</span> - "PotatoGANs: Utilizing Generative Adversarial Networks, Instance Segmentation, and Explainable AI for Enhanced Potato Disease Identification and Classification" has been accepted for presentation and publication at the 11th IEEE International Conference on Sustainable Technology and Engineering (
+          <a href="https://i-coste.org/" target="_blank" rel="noopener noreferrer">
+            IEEE i-COSTE 2025
+          </a>
+          ).
+        </NewsItem>
 
 
+        <NewsItem>
+          <span className="date">[September]</span> - Two papers got published in the 4th International Conference on Computing and Communication Networks (
+          <a href="https://icccn.co.uk/" target="_blank" rel="noopener noreferrer">
+            ICCCNet 2024
+          </a>
+          ).
+        </NewsItem>
+
+        <NewsItem>
+          <span className="date">[September]</span> - One paper got published in the <i>International Journal of Disaster Risk Reduction</i>. (
+          <a href="https://www.sciencedirect.com/journal/international-journal-of-disaster-risk-reduction" target="_blank" rel="noopener noreferrer">
+            Disaster Risk Reduction
+          </a>
+          )
+        </NewsItem>
+
+        <NewsItem>
+          <span className="date">[June]</span> - One paper got published in the <i>International Journal of Information Management Data Insights</i>. (
+          <a href="https://www.sciencedirect.com/journal/international-journal-of-information-management-data-insights" target="_blank" rel="noopener noreferrer">
+            IJIM
+          </a>
+          )
+        </NewsItem>
+
+        <NewsItem>
+          <span className="date">[May]</span> - Joined Brain Station 23 as a Software Engineer (AI/ML). (
+          <a href="https://www.linkedin.com/company/brainstation-23/posts/?feedView=all" target="_blank" rel="noopener noreferrer">
+            Brain Station 23
+          </a>
+          )
+        </NewsItem>
+
+        <NewsItem>
+          <span className="date">[May]</span> - Two papers got published at ICITA. (
+          <a href="https://www.icita.world/#/" target="_blank" rel="noopener noreferrer">
+            ICITA 2024
+          </a>
+          )
+        </NewsItem>
 
 
 
-  {/* 2024 Events */}
-  <YearTitle>2024</YearTitle>
-
-  <NewsItem>
-    <span className="date">[August]</span> - Two papers got accepted at the 18th International Conference on Information Technology and Applications (
-    <a href="https://www.icita.world/#/" target="_blank" rel="noopener noreferrer">
-      ICITA 2024
-    </a>
-    ).
-  </NewsItem>
-
-  <NewsItem>
-    <span className="date">[September]</span> - Attended the IEEE Region 10 Symposium at Netaji Subhas University of Technology (NSUT), New Delhi (
-    <a href="https://ieeedelhi-tensymp2024.org/" target="_blank" rel="noopener noreferrer">
-      TENSYMP2024
-    </a>
-    ).
-  </NewsItem>
 
 
-  <NewsItem>
-    <span className="date">[October]</span> - Attended the 18th International Conference on Information Technology and Applications and presented two papers. (
-    <a href="https://www.icita.world/#/" target="_blank" rel="noopener noreferrer">
-      ICITA 2024
-    </a>
-    )
-  </NewsItem>
+        {/* 2024 Events */}
+        <YearTitle>2024</YearTitle>
 
-  <NewsItem>
-    <span className="date">[October]</span> - Attended the 4th International Conference on Computing and Communication Networks and presented two papers. (
-    <a href="https://icccn.co.uk/" target="_blank" rel="noopener noreferrer">
-      ICCCNet 2024
-    </a>
-    )
-  </NewsItem>
+        <NewsItem>
+          <span className="date">[August]</span> - Two papers got accepted at the 18th International Conference on Information Technology and Applications (
+          <a href="https://www.icita.world/#/" target="_blank" rel="noopener noreferrer">
+            ICITA 2024
+          </a>
+          ).
+        </NewsItem>
 
-  <NewsItem>
-    <span className="date">[March]</span> - Joined as a Machine Learning Engineer (Level-I) at{" "}
-    <a href="https://www.linkedin.com/company/anttroboticsltd/posts/?feedView=all" target="_blank" rel="noopener noreferrer">
-      ANTT Robotics Ltd.
-    </a>
-  </NewsItem>
+        <NewsItem>
+          <span className="date">[September]</span> - Attended the IEEE Region 10 Symposium at Netaji Subhas University of Technology (NSUT), New Delhi (
+          <a href="https://ieeedelhi-tensymp2024.org/" target="_blank" rel="noopener noreferrer">
+            TENSYMP2024
+          </a>
+          ).
+        </NewsItem>
 
-</NewsSection>
+
+        <NewsItem>
+          <span className="date">[October]</span> - Attended the 18th International Conference on Information Technology and Applications and presented two papers. (
+          <a href="https://www.icita.world/#/" target="_blank" rel="noopener noreferrer">
+            ICITA 2024
+          </a>
+          )
+        </NewsItem>
+
+        <NewsItem>
+          <span className="date">[October]</span> - Attended the 4th International Conference on Computing and Communication Networks and presented two papers. (
+          <a href="https://icccn.co.uk/" target="_blank" rel="noopener noreferrer">
+            ICCCNet 2024
+          </a>
+          )
+        </NewsItem>
+
+        <NewsItem>
+          <span className="date">[March]</span> - Joined as a Machine Learning Engineer (Level-I) at{" "}
+          <a href="https://www.linkedin.com/company/anttroboticsltd/posts/?feedView=all" target="_blank" rel="noopener noreferrer">
+            ANTT Robotics Ltd.
+          </a>
+        </NewsItem>
+
+      </NewsSection>
 
 
 
